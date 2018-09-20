@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>SVG to Background</title>
+	<style>
+		.link{
+			width: 30px;
+			height: 26px;
+			background-color: #6087ad;
+			mask-image: url('img/youtube.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: inline-block;
+		}
+		.div{
+			height: 55px;
+			width: 62px;
+			background-color: red;
+			mask-image: url('img/youtube.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<a href="#" class="link"></a>
+	<div class="div"></div>
+	
+</body>
+</html>
